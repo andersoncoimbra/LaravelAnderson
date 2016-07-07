@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="440e9465-80b0-45b7-bdea-57dd441593c8" name="Anderson.ml" url="http://pro.anderson.ml/">
+        <fileTransfer host="anderson.ml" port="21" rootFolder="/public_html" password="dfd9df9bdf9ddf9adf9bdf9bdf9bdfcb" username="anderson">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
