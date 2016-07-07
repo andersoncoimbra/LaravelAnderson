@@ -8,7 +8,14 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    <table class="table">
+                        @forelse($users as $user)
+                            <tr><th>Nome </th><th>E-Mail </th></tr>
+                            <tr><td>{{$user->name}}</td><td>{{$user->email}}</td></tr>
+                        @empty
+                        <p> Sem Usuário</p>
+                         @endforelse
+                    </table>
                 </div>
             </div>
         </div>
