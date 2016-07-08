@@ -18,7 +18,7 @@ Route::get('/', function () {
 Route::get('teste/{id}', function ($id){
     return "Olá teste numero {$id}";
 });
+
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
-
