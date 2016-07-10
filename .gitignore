@@ -6,3 +6,8 @@ Homestead.json
 .env
 /vendor/
 /.env
+
+.idea/vcs.xml
+.idea/workspace.xml
+npm-debug.log
+/.idea/webServers.xml
