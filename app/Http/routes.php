@@ -22,3 +22,5 @@ Route::get('teste/{id}', function ($id){
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get("/eventos", "EventoController@index");

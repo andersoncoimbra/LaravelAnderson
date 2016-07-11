@@ -21,7 +21,6 @@ class CreateEventosTable extends Migration
             $table->dateTime('dia-hora');
             $table->integer('limite');
             $table->decimal('valor',5,2);
-            
             $table->timestamps();
         });
     }
