@@ -21,10 +21,12 @@ class EventoController extends Controller
     public function index()
     {
         $tipoEvento = DB::table('tipo-evt')->select('nome', 'id')->get();
-
-
        // dd($tipoEvento);
- return view('eventos', compact('tipoEvento'));
+        return view('eventos', compact('tipoEvento'));
+    }
 
+    public  function postnewevento(Request $request)
+    {
+        return dd($request);
     }
 }

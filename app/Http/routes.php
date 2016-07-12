@@ -24,3 +24,5 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 
 Route::get("/eventos", "EventoController@index");
+
+Route::post("/eventos", "EventoController@postnewevento");
