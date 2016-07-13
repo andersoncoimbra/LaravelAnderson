@@ -14,8 +14,8 @@ class CreateEventosTable extends Migration
     {
         Schema::create('eventos', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('tipo-evento')->unsigned();
-            $table->foreign('tipo-evento')->references('id')->on('tipo-evt');
+            $table->integer('tipoevento')->unsigned();
+            $table->foreign('tipoevento')->references('id')->on('tipo-evt');
             $table->string('nome', 50);
             $table->string("local", 70);
             $table->dateTime('dia-hora');
