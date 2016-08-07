@@ -22,12 +22,3 @@ Route::get('teste/{id}', function ($id){
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
-
-Route::group(['prefix' => 'eventos'], function ()
-{
-Route::get("/", "EventoController@index");
-
-Route::get("/new", "EventoController@getnewevento");
-
-Route::post("/new", "EventoController@postnewevento");
-});

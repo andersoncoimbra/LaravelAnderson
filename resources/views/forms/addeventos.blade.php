@@ -1,3 +1,4 @@
+<<<<<<< f2accf42ba2e5f771d8708e02ed0e4f34803a650
 @extends('layouts.app')
 @section('content')
     <div class="container">
@@ -96,3 +97,7 @@
         </div>
     </div>
 @endsection
+=======
+<h2>Register!</h2>
+{!! Form::open(array('url' => '/eventos')) !!}
+>>>>>>> Atualização com adição de recursos para dashboard
