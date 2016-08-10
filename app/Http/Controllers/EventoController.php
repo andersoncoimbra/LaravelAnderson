@@ -24,6 +24,7 @@ class EventoController extends Controller
         $eventos = Evento::all();
 
 
+
         return view('eventos', compact('eventos'));
     }
 

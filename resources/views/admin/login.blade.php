@@ -22,7 +22,7 @@
               <img src="http://anderson.ml/resources/assets/assets/img/logo.png" alt=""/>
                 </div>
             <div class="col-md-4 col-md-offset-4">
-                <div class="login-panel panel panel-default">                  
+                <div class="login-panel panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title">Please Sign In</h3>
                     </div>
