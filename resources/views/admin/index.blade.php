@@ -6,13 +6,17 @@
     <title>Bootsrtap Free Admin Template - SIMINTA | Admin Dashboad Template</title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="assets/css/main-style.css" rel="stylesheet" />
-    <!-- Page-Level CSS -->
-    <link href="assets/plugins/morris/morris-0.4.3.min.css" rel="stylesheet" />
-   </head>
+    {!! Html::style('http://anderson.ml/resources/assets/assets/plugins/bootstrap/bootstrap.css') !!}
+    {!! Html::style('http://anderson.ml/resources/assets/assets/font-awesome/css/font-awesome.css') !!}
+    {!! Html::style('http://anderson.ml/resources/assets/assets/plugins/pace/pace-theme-big-counter.css') !!}
+    {!! Html::style('http://anderson.ml/resources/assets/assets/css/style.css') !!}
+    {!! Html::style('http://anderson.ml/resources/assets/assets/css/main-style.css') !!}
+    {!! Html::style('http://anderson.ml/resources/assets/assets/plugins/morris/morris-0.4.3.min.css') !!}
+
+    <link rel="stylesheet" href="http://anderson.ml/resources/assets/assets/font-awesome/css/font-awesome.min.css">
+
+
+</head>
 <body>
     <!--  wrapper -->
     <div id="wrapper">

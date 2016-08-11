@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootsrtap Free Admin Template - SIMINTA | Admin Dashboad Template</title>
+    <title>Sistema de Inscrições acadêmicas - SISAC | Admin Dashboad </title>
     <!-- Core CSS - Include with every page -->
-    <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet" />
-      <link href="assets/css/main-style.css" rel="stylesheet" />
+    {!! Html::style('/assets/plugins/bootstrap/bootstrap.css') !!}
+    {!! Html::style('/assets/font-awesome/css/font-awesome.css') !!}
+    {!! Html::style('/assets/plugins/pace/pace-theme-big-counter.css') !!}
+    {!! Html::style('/assets/css/style.css') !!}
+    {!! Html::style('/assets/css/main-style.css') !!}
+
 
 </head>
 
@@ -28,7 +29,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logo.png" alt="" />
+                    <img src="/assets/img/logo.png" alt="" />
                 </a>
             </div>
             <!-- end navbar-header -->
@@ -261,7 +262,7 @@
                         <!-- user image section-->
                         <div class="user-section">
                             <div class="user-section-inner">
-                                <img src="assets/img/user.jpg" alt="">
+                                <img src="/assets/img/user.jpg" alt="">
                             </div>
                             <div class="user-info">
                                 <div>Jonny <strong>Deen</strong></div>
@@ -397,11 +398,15 @@
     <!-- end wrapper -->
 
     <!-- Core Scripts - Include with every page -->
-    <script src="assets/plugins/jquery-1.10.2.js"></script>
-    <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
-    <script src="assets/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="assets/plugins/pace/pace.js"></script>
-    <script src="assets/scripts/siminta.js"></script>
+
+    {!! Html::script('/assets/plugins/jquery-1.10.2.js') !!}
+    {!! Html::script('/assets/plugins/bootstrap/bootstrap.min.js') !!}
+    {!! Html::script('/assets/plugins/metisMenu/jquery.metisMenu.js') !!}
+
+    {!! Html::script('/assets/scripts/siminta.js') !!}
+    {!! Html::script('/assets/plugins/pace/pace.js') !!}
+
+
 
 </body>
 

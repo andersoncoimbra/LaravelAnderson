@@ -12,13 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('admin.login');
+    return view('dashboard');
 });
 
-Route::get('teste/{id}', function ($id){
-    return "Olá teste numero {$id}";
+Route::get('/dashboard', function () {
+    return view('admin.blank');
 });
 
-Route::auth();
-
-Route::get('/home', 'HomeController@index');
+//Route::get('teste/{id}', function ($id){
+//    return "Olá teste numero {$id}";
+//});
+//
+//Route::auth();
+//
+//Route::get('/home', 'HomeController@index');
